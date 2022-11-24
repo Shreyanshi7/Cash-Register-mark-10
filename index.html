@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="title">Cash Register Manager💰</div>
+      <div class="details">
+        Enter the bill amount and cash given by the customer and know minimum
+        number of notes to return.
+      </div>
+
+      <div class="bill-amount-container">
+        <div class="label">Bill Amount :</div>
+        <input id="bill-amount" class="input-field" type="number" />
+        <button id="next-button" class="primary-btn">Next</button>
+      </div>
+
+      <br />
+
+    <div class="cash-given-input">
+      <div class="label">Cash Given :</div>
+      <input id="cash-given" class="input-field" type="number" />
+      <button id="check-button" class="primary-btn">Check</button>
+    </div>
+      <div id="error-message"></div>
+
+      <div class="returnChange">
+        <div class="label">Return Change</div>
+        <div id="output">
+          <table>
+            <tr>
+              <th>No. of Notes</th>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+              <td class="no-of-notes"></td>
+            </tr>
+            <tr>
+              <th>Notes</th>
+              <td>2000</td>
+              <td>500</td>
+              <td>100</td>
+              <td>20</td>
+              <td>10</td>
+              <td>5</td>
+              <td>1</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+  <footer class="footer">
+    <div class="footer-div">
+       
+    <footer class="footer">
+        <div class="footer-header">connect with me</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/Shreyaa7" target="_blank">github</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/shreyparihar_" target="_blank">twitter</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/shreyanshi-singh-96404224b" target="_blank">linkedin</a>
+            </li>
+        </ul>
+    </footer>
+    </div>
+</footer>
+</html>

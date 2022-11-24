@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    background-color: #f3e8ff;
+}
+
+#title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.primary-btn {
+    background-color: #7c3aed;
+    border: none;
+    padding: .7rem 1.5rem;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+.input-field {
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: .5rem;
+}
+
+.bill-amount-container, .cash-given-input {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: 2rem;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #7c3aed;
+    padding: 1.5rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    margin-top: 1.5rem;
+}
+
+
+/* ------------ */
+
+table{
+    width: 100%;
+    table-layout: fixed;
+    /* box-shadow: 5px 5px 10px 5px #353535; */
+    margin-top: 1rem;
+}
+
+.no-of-notes{
+    font-weight: bold;
+}
+
+.output table,th,td{
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+.cash-given-input{
+    display: none;
+}
+.returnChange{
+    display:flex;
+    flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   padding: 1rem;
+   margin-top: 7rem;
+}
+
+.label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+
+/* ------------ */
+
+
+.footer .link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.footer li {
+    display: inline;
+    padding: 2rem;
+    text-align: center;
+}
